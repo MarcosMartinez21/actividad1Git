@@ -8,5 +8,6 @@ namespace Actividad1Git
     {
         private string _nombre;
         private string _edad;
+
     }
 }
