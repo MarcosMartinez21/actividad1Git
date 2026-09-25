@@ -8,5 +8,11 @@ namespace Actividad1Git
     {
         private string _nombre;
         private string _edad;
+
+        public Persona(string nombre, string edad)
+        {
+            _nombre = nombre;
+            _edad = edad;
+        }
     }
 }
