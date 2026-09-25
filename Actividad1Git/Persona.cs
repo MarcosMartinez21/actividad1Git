@@ -14,5 +14,9 @@ namespace Actividad1Git
             _nombre = nombre;
             _edad = edad;
         }
+        public string MostrarDatos()
+        {
+            return $"Nombre: {_nombre}\nEdad: {_edad}";
+        }
     }
 }
