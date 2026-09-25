@@ -9,6 +9,7 @@ namespace Actividad1Git
         private string _nombre;
         private string _edad;
 
+
         public Persona(string nombre, string edad)
         {
             _nombre = nombre;
@@ -18,5 +19,6 @@ namespace Actividad1Git
         {
             return $"Nombre: {_nombre}\nEdad: {_edad}";
         }
+
     }
 }

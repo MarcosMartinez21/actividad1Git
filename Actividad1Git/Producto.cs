@@ -31,9 +31,16 @@ namespace Actividad1Git
             return _precio;
         }
 
-        public void SetPrecio(int precio) { 
-        
+        public void SetPrecio(int precio)
+        { 
             _precio = precio;
         }
+
+        public string MostrarDatos()
+        {
+            return $"Nombre:{_nombre}\n" +
+                $"Precio:{_precio}";
+        }
+
     }
 }
