@@ -1,2 +1,11 @@
 ﻿using Actividad1Git;
-Console.WriteLine("Hello, World!");
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Persona persona = new Persona("Carlos", 16);
+
+        persona.SetEdad(20);
+        persona.SetNombre("Marcos");
+    }
+}
