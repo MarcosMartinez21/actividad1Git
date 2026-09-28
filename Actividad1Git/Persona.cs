@@ -7,10 +7,10 @@ namespace Actividad1Git
     public class Persona
     {
         private string _nombre;
-        private string _edad;
+        private int _edad;
 
 
-        public Persona(string nombre, string edad)
+        public Persona(string nombre, int edad)
         {
             _nombre = nombre;
             _edad = edad;
@@ -18,6 +18,16 @@ namespace Actividad1Git
         public string MostrarDatos()
         {
             return $"Nombre: {_nombre}\nEdad: {_edad}";
+        }
+
+        public bool esMayorEdad()
+        {
+            bool esMayor = false;
+            if(_edad >= 18)
+            {
+                esMayor = true;
+            }
+            return esMayor;
         }
 
     }
