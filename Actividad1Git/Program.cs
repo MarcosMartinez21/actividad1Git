@@ -4,7 +4,7 @@ public class Main
 {
     public static void main(string[] args)
     {
-        Persona persona = new Persona("Carlos", 10);
+        Persona persona = new Persona("Angel", 10);
         persona.esMayorEdad();
     }
 }
